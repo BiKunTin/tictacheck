@@ -1,0 +1,29 @@
+def Shuffle(numberofshuffles):
+        #from random import *
+        rand = randint(0, self.HALFDECK - 1)
+        shorterlst = None
+        longerlst = None
+        for k in range(numberofshuffles):
+            merge(shorterlst,longerlst,rand)
+
+
+def merge(shorterlst, longerlst, length):
+        for i in range(length):
+            if (b.deck != None):
+                if (b.deck.next != None):
+                    self.InsertTop(shorterlst, b.deck.suit, b.deck.rank)
+                    self.RemoveTop(b.deck)
+        for i in range(self.DECKSIZE - length + 1):
+            if (b.deck.next != None):
+                self.InsertTop(longerlst, b.deck.suit, b.deck.rank)
+                self.RemoveTop(b.deck)
+        if (shorterlst != None):
+            while (shorterlst.next != None):
+                InsertTop(b.deck, shorterlst.rank, shorterlst.suit)
+                InsertTop(b.deck, longerlst.rank, longerlst.suit)
+                RemoveTop(shorterlst)
+                RemoveTop(longerlst)
+        if (longerlst != None):
+            while (longerlst.next != None):
+                InsertTop(b.deck, longerlst.rank, longerlst.suit)
+                RemoveTop(longerlst)
